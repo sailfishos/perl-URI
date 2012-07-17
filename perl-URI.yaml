@@ -1,6 +1,6 @@
 Name: perl-URI
 Summary: A Perl module implementing URI parsing and manipulation
-Version: 1.54
+Version: 1.60
 Release: 1
 Group: Development/Libraries
 License: GPL+ or Artistic
@@ -13,7 +13,7 @@ Description: |
     updated by RFC 2732).
 
 PkgBR:
-    - perl(MIME::Base64)
+    - perl(MIME::Base64) >= 2
     - perl(ExtUtils::MakeMaker)
     - perl(Test::More)
 Configure: none
